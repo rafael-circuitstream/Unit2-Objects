@@ -15,4 +15,6 @@ public abstract class Weapon : ScriptableObject
     {
         return ammo > 0;
     }
+
+    //lynx changed
 }
