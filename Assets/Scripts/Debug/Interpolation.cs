@@ -37,7 +37,7 @@ public class Interpolation : MonoBehaviour
         //Interpolation of colors for Health Bar
         
         //healthBarImage.color = Color.Lerp(Color.red, Color.green, slider.value / slider.maxValue);
-
+        //test on github
 
         DotValue = Vector2.Dot(position1.up, position2.position);
         
