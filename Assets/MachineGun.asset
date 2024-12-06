@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6c3905dee917b944bacc290f83a5ec0, type: 3}
-  m_Name: Plasma Rifle
+  m_Script: {fileID: 11500000, guid: 25d03da163c643b469eb9828435ee7a5, type: 3}
+  m_Name: MachineGun
   m_EditorClassIdentifier: 
   damage: 10
-  ammo: 100
-  fireRate: 1
+  ammo: 0
+  fireRate: 5
   projectilePrefab: {fileID: 6941424868017031529, guid: 5969a8369942aaa45a51cf0d79f18bf4, type: 3}

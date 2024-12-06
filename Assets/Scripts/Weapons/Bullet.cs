@@ -11,6 +11,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         myRigidbody.velocity = transform.up * bulletSpeed;
+        Destroy(gameObject, 4f);
     }
 
     public void InitializeBullet(float damageParam)
@@ -26,7 +27,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.rigidbody.CompareTag("Enemy"))
+        if (collision.rigidbody && collision.rigidbody.CompareTag("Enemy"))
         {
             collision.rigidbody.GetComponent<Character>().healthValue.DecreaseHealth(myDamage);
         }

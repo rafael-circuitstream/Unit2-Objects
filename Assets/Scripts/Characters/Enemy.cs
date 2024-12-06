@@ -42,6 +42,7 @@ public class Enemy : Character
         if(attackTimer >= attackCooldown)
         {
             target.healthValue.DecreaseHealth(1);
+            //currentWeapon.StartShooting(weaponTip);
             attackTimer = 0;
         }
         else

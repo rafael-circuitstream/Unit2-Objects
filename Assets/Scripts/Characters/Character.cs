@@ -42,9 +42,20 @@ public class Character : MonoBehaviour
         //Debug.Log(GameManager.timer);
     }
 
-    public virtual void Attack()
+    //Probably happening every frame
+    public virtual void Attack() //the part where it instantiate the bullet
     {
         Debug.Log("Punching!");
+    }
+
+    public virtual void StartAttack()
+    {
+        //As I press the mouse button
+    }
+
+    public virtual void StopAttack()
+    {
+        //When I release the mouse button
     }
 
 }

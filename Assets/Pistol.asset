@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a82e60f43f869c4b896cd027e3b15a2, type: 3}
-  m_Name: LaserGun
+  m_Script: {fileID: 11500000, guid: 67cbca22d96c2654cacc269f4de97c28, type: 3}
+  m_Name: Pistol
   m_EditorClassIdentifier: 
-  damage: 50
+  damage: 1
   ammo: 0
-  fireRate: 0
-  projectilePrefab: {fileID: 6941424868017031529, guid: 8308e9ba0f00ccc478f36d5708f048ab, type: 3}
-  chargingRequiredTime: 4
+  fireRate: 3
+  projectilePrefab: {fileID: 6941424868017031529, guid: 5969a8369942aaa45a51cf0d79f18bf4, type: 3}
